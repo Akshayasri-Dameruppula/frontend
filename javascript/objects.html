@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var details={//object cconcept
+            name:"akshaya",
+            age:22,
+            gender:"female",
+        }
+        document.writeln("The object result:",details.name,"<br>");
+        var arr=[1,2,3,4,5,6];
+        document.writeln(arr[3],"<br>");
+        for (var s in arr)
+        {
+           // document.writeln(s);//prints index of numbers
+            document.writeln(arr[s]);
+            
+        }
+
+        for (var s in details)
+        {
+            //document.writeln(s); //
+            document.writeln("<br>",details[s]);
+            
+        }
+    </script>
+</body>
+</html>
